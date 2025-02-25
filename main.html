@@ -31,28 +31,28 @@
                 <p>Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
 
                 <!-- welcome to payoo card -->
-                 <div id="add-money-card" class="cards grid grid-cols-3 mt-14">
-                    <div  class="box border p-4 text-center rounded-sm">
+                 <div  class="cards grid grid-cols-3 mt-14 gap-3">
+                    <div id="add-money-card" class="box border border-gray-300 p-4 text-center rounded-sm">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Add Money</h3>
                     </div>
-                    <div id="cashOut-card" class="box border p-4 text-center rounded-sm">
+                    <div id="cashOut-card" class="box border p-4 text-center rounded-sm border-gray-300">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Cashout</h3>
                     </div>
-                    <div class="box border p-4 text-center rounded-sm">
+                    <div class="box border p-4 text-center rounded-sm border-gray-300">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Transfer Money</h3>
                     </div>
-                    <div class="box border p-4 text-center rounded-sm">
+                    <div class="box border p-4 text-center rounded-sm border-gray-300">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Get Bonus</h3>
                     </div>
-                    <div class="box border p-4 text-center rounded-sm">
+                    <div class="box border p-4 text-center rounded-sm border-gray-300">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Pay Bill</h3>
                     </div>
-                    <div class="box border p-4 text-center rounded-sm">
+                    <div class="box border p-4 text-center rounded-sm border-gray-300">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Transactions</h3>
                     </div>
@@ -110,20 +110,20 @@
                               <label class="label">
                                 <span class=" label-text">Agent Number</span>
                               </label>
-                              <input id="Account-number" type="number" placeholder="Enter 11-digit number" class="input bg-gray-50 label-text" />
+                              <input id="Agent-number" type="number" placeholder="Enter 11-digit number" class="input bg-gray-50 label-text" />
                               <label class="label">
                                 <span class=" label-text">Ammount</span>
                               </label>
-                              <input id="ammount" type="number" placeholder="Enter amonut to withdraw" class="input bg-gray-50 label-text" />
+                              <input id="withdraw-ammount" type="number" placeholder="Enter amonut to withdraw" class="input bg-gray-50 label-text" />
                             </div>
                             <div class="form-control">
                               <label class="label">
                                 <span class="label-text">Pin Number</span>
                               </label>
-                              <input id="pin" type="text" placeholder="Enter pin number" class="input bg-gray-50 label-text"/>
+                              <input id="withdraw-pin" type="text" placeholder="Enter pin number" class="input bg-gray-50 label-text"/>
                             </div>
                             <div class="form-control mt-6">
-                              <button id="add-amount" id="log-btn" class="btn btn-primary">Withdraw Money</button>
+                              <button id="withdraw-money" id="log-btn" class="btn btn-primary">Withdraw Money</button>
                             </div>
                           </form>
                         </div>
@@ -134,5 +134,6 @@
     </section>
     <script src="script/amount.js"></script>
     <script src="script/toggle.js"></script>
+    <script src="script/withdraw.js"></script>
 </body>
 </html>

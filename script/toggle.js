@@ -1,4 +1,4 @@
-// document.getElementById('withdraw-money').style.display = 'none'
+document.getElementById('withdraw-money').style.display = 'none'
 
 document.getElementById('cashOut-card').addEventListener('click', function(){
     document.getElementById('withdraw-money').style.display = 'block'
