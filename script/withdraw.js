@@ -1,4 +1,4 @@
-document.getElementById('withdraw-money').addEventListener('click', function(event){
+document.getElementById('withdraw-money-btn').addEventListener('click', function(event){
     event.preventDefault();
     
     const withdrawAmmount = document.getElementById('withdraw-ammount').value;
@@ -13,6 +13,6 @@ document.getElementById('withdraw-money').addEventListener('click', function(eve
         document.getElementById('main-ammount').innerText = subtraction;
     }
     else{
-        console.log('Invalid your PIN')
+        alert('Invalid your PIN')
     }
 })
