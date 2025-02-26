@@ -31,7 +31,7 @@
                 <p>Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
 
                 <!-- welcome to payoo card -->
-                 <div  class="cards grid grid-cols-3 mt-14 gap-3">
+                 <div  class="cards grid grid-cols-3 mt-14 gap-3 ">
                     <div id="add-money-card" class="box border border-gray-300 p-4 text-center rounded-sm">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Add Money</h3>
@@ -52,7 +52,7 @@
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Pay Bill</h3>
                     </div>
-                    <div class="box border p-4 text-center rounded-sm border-gray-300">
+                    <div id="transaction-box" class="box border p-4 text-center rounded-sm border-gray-300">
                         <img class="w-8 mx-auto" src="image/Group.png" alt="">
                         <h3>Transactions</h3>
                     </div>
@@ -93,7 +93,7 @@
                             </label>
                           </div>
                           <div class="form-control mt-6">
-                            <button id="add-amount" id="log-btn" class="btn btn-primary">Add Ammount</button>
+                            <button id="add-amount" class="btn btn-primary">Add Ammount</button>
                           </div>
                         </form>
                       </div>
@@ -110,7 +110,7 @@
                               <label class="label">
                                 <span class=" label-text">Agent Number</span>
                               </label>
-                              <input id="Agent-number" type="number" placeholder="Enter 11-digit number" class="input bg-gray-50 label-text" />
+                              <input id="Agent-number" value="01312131415" type="number" placeholder="Enter 11-digit number" class="input bg-gray-50 label-text" />
                               <label class="label">
                                 <span class=" label-text">Ammount</span>
                               </label>
@@ -130,10 +130,21 @@
                       </div>
                     </div>
             </section>
+            <section id="transaction-container">
+              <h2 class="ml-8 text-2xl font-medium mt-6">Transactions</h2>
+            </section>
         </header>
     </section>
-    <script src="script/amount.js"></script>
-    <script src="script/toggle.js"></script>
-    <script src="script/withdraw.js"></script>
+
+    <!-- <script src="script/amount.js"></script> -->
+    <!-- <script src="script/toggle.js"></script> -->
+    <!-- <script src="script/withdraw.js"></script> -->
+
+    <!-- another way -->
+     <script src="shortcut/add-money.js"></script>
+     <script src="shortcut/utilites.js"></script>
+     <script src="shortcut/toggle.js"></script>
+     <script src="shortcut/cashout.js"></script>
+     <script src="shortcut/transaction.js"></script>
 </body>
 </html>
