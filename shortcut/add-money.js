@@ -2,8 +2,8 @@ document.getElementById("add-amount").addEventListener('click', function(event){
     event.preventDefault();
     const ammount =getInputValueById('ammount');
     const pin = getInputValueById('pin');
-    const accountNumber = document.getElementById('Account-number').value;
     const mainAmmount = getInnerTextById('main-ammount')
+    const accountNumber = document.getElementById('Account-number').value;
 
     if(ammount<0){
         alert('Please give positive ammount')
@@ -32,5 +32,8 @@ document.getElementById("add-amount").addEventListener('click', function(event){
     Added ${ammount} taka from ${accountNumber} this number.
     `;
     container.appendChild(p)
-
+    
 })
+
+
+

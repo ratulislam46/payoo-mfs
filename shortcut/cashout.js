@@ -1,4 +1,4 @@
-document.getElementById(id="withdraw-money-btn").addEventListener('click', function(event){
+document.getElementById("withdraw-money-btn").addEventListener('click', function(event){
     event.preventDefault();
     const mainAmmount = getInnerTextById("main-ammount")
     const withdrawAmmount = getInputValueById('withdraw-ammount');
